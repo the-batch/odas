@@ -1,0 +1,15 @@
+$ink: #000000;
+$paper: #ffffff;
+$red: #dd4b39;
+$muted: #777777;
+
+@mixin antonio {
+  font-family: var(--font-antonio), Impact, 'Arial Narrow', sans-serif;
+  font-weight: 650;
+  font-stretch: condensed;
+  line-height: .88;
+  letter-spacing: -.055em;
+}
+@mixin arimo { font-family: var(--font-arimo), Arial, sans-serif; }
+@mixin gutter { padding-inline: clamp(22px, 4.8vw, 96px); }
+@mixin label { font-size: 10px; line-height: 1.5; font-weight: 700; letter-spacing: .11em; }

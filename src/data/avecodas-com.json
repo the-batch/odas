@@ -1,0 +1,135 @@
+{
+  "definitions": [
+    {
+      "term": "ODAS",
+      "phonetic": "/ɔ.das/",
+      "meaning": "action de connecter avec audace marques & humains"
+    }
+  ],
+  "companyDescription": {
+    "name": "ODAS",
+    "overview": "ODAS est une agence de stratégie digitale spécialisée dans l’accompagnement des acteurs financiers, des institutions et des marques à impact en Afrique de l’Ouest.",
+    "tagline": "Nous construisons des dispositifs digitaux structurés, crédibles et orientés résultats avec Odas !",
+    "vision": "Tout ce que vous pourrez accomplir avec plus d’ODAS",
+    "highlight": "Imaginez ODAS ODAS"
+  },
+  "media": [
+    {
+      "type": "image",
+      "src": "https://avecodas.com/_assets/media/1321ed744a50d46a789400b346b5f5fb.png"
+    },
+    {
+      "type": "image",
+      "src": "https://avecodas.com/_assets/media/1321ed744a50d46a789400b346b5f5fb.png"
+    },
+    {
+      "type": "image",
+      "src": "https://avecodas.com/_assets/media/4be45e24c056d3f5684272c121aeed8f.png"
+    },
+    {
+      "type": "image",
+      "src": "https://avecodas.com/_assets/media/a4f914a3ceea84b515beacc85fb32d5f.png"
+    },
+    {
+      "type": "image",
+      "src": "https://avecodas.com/_assets/media/a4f914a3ceea84b515beacc85fb32d5f.png"
+    },
+    {
+      "type": "image",
+      "src": "https://avecodas.com/_assets/media/31cd613eeb4248f2773568a6c663abcc.png"
+    },
+    {
+      "type": "image",
+      "src": "https://avecodas.com/_assets/media/a4f914a3ceea84b515beacc85fb32d5f.png"
+    },
+    {
+      "type": "image",
+      "src": "https://avecodas.com/_assets/media/d2afc2700533608f9ea4897885428f6a.jpg"
+    }
+  ],
+  "industries": [
+    {
+      "title": "Acteurs de la finance & de l’investissement",
+      "description": null
+    },
+    {
+      "title": "Assurances",
+      "description": null
+    },
+    {
+      "title": "Sociétés de gestion (SGI / SGO)",
+      "description": null
+    },
+    {
+      "title": "Institutions et organisations à impact",
+      "description": null
+    },
+    {
+      "title": "Marques engagées (grande consommation ou niche à impact)",
+      "description": null
+    },
+    {
+      "title": "Business digitaux en forte croissance",
+      "description": null
+    }
+  ],
+  "areasOfExpertise": [
+    "Stratégie & Positionnement",
+    "Audit digital",
+    "Architecture éditoriale",
+    "Conseil stratégique",
+    "Production & Influence",
+    "Création de contenus",
+    "Social media",
+    "Vidéo stratégique",
+    "Social Ads & Google Ads",
+    "Communication évènementielle",
+    "Communication financière & Institutionnelle",
+    "Lancement de fonds",
+    "Promotion de produits d’épargne",
+    "Education financière",
+    "Note de recherche et expertise financière"
+  ],
+  "personalities": [
+    "Olivia Dadié Kipré",
+    "Omar Assan Sylla"
+  ],
+  "digitalMarketingServices": [
+    "Renforcer votre crédibilité digitale",
+    "Vous souhaitez que votre expertise soit connue et reconnue en ligne, sur les médias sociaux afin de rester dans l’esprit de vos clients ? Nous développons une stratégie sur mesure s’adaptant à votre personnalité et vos besoins !",
+    "Promouvoir vos services & produits",
+    "Transformez votre communication en levier de conversion et de croissance mesurable. Selon vos objectifs nous déployons des stratégies de marketing digital pour accroître la notoriété et augmenter les ventes en ligne ou vers vos points de vente physiques de vos produits & services.",
+    "Promouvoir votre évènement",
+    "Vous souhaitez communiquer efficacement afin d’attirer le plus de monde lors de votre évènement, amplifier son rayonnement ? Nous avons les outils et l’expertise qu’il faut."
+  ],
+  "contactInfo": {
+    "address": "Villa DSA Rue Alpha Blondy, Riviera 2 Sainte Famille Commune de COCODY, Abidjan, Côte d’Ivoire",
+    "visit": "Venir nous rendre visite",
+    "meeting": "Prendre un café avec un associé pour parler de votre besoin en marketing digital",
+    "phone": "(+225) 07 07 00 30 39",
+    "email": "bonjour@avecodas.com"
+  },
+  "footer": {
+    "organization": "FONDATION LN",
+    "sequence": [
+      "A",
+      "c",
+      "c",
+      "e",
+      "s",
+      "s",
+      "i",
+      "n",
+      "g",
+      " ",
+      "p",
+      "o",
+      "w",
+      "e",
+      "r"
+    ],
+    "companyName": "ODAS",
+    "copyright": "© 2026 ODAS CONSEILS CÔTE D’IVOIRE SARL. Tous droits réservés.",
+    "rccm": "RCCM : CI-ABJ-03-2024-B12-09037"
+  }
+}

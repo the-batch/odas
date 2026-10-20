@@ -1,0 +1,20 @@
+@use "tokens" as *;
+/* Cinematic intro matching hero's black background */
+.preloader{position:fixed;inset:0;z-index:1500;background:$ink;color:$paper;display:flex;flex-direction:column;justify-content:space-between;clip-path:inset(0% 0% 0% 0%);overflow:hidden;@include gutter;padding-block:35px;will-change:clip-path;animation:preloader-failsafe 6s linear forwards}
+.preloader__top,.preloader__bottom{display:flex;justify-content:space-between;gap:25px;align-items:center;@include label;font-size:9px}
+.preloader__top>span:last-child{color:#888}
+.preloader__center{position:relative;flex:1;display:flex;align-items:center;justify-content:center;min-height:0}
+.preloader__logo{width:min(80vw,1220px);opacity:1}
+.preloader__logo img{display:block;width:100%;height:auto}
+.preloader__side{position:absolute;bottom:8%;right:3%;display:flex;align-items:center;gap:12px;font-size:clamp(10px,1.1vw,17px);letter-spacing:.1em;font-weight:700;color:#e0e0e0}
+.preloader__block{display:block;height:18px;width:18px;background:$red}
+.preloader__bottom{align-items:end}
+.preloader__bottom>span:first-child{max-width:240px;line-height:1.6}
+.preloader__track{height:2px;background:#292929;flex:1;max-width:560px;margin-bottom:9px}
+.preloader__track-fill{background:$red;height:100%;width:100%;transform-origin:left;transform:scaleX(0)}
+.preloader__counter{@include antonio;font-size:clamp(50px,8vw,145px);line-height:.75;font-variant-numeric:tabular-nums;min-width:1.8em;text-align:right}
+.preloader__counter small{@include arimo;font-size:12px;vertical-align:top;margin-left:4px;font-weight:700}
+@media(max-width:740px){.preloader{padding-block:25px}.preloader__top{font-size:8px}.preloader__top>span:last-child{display:none}.preloader__logo{width:93vw}.preloader__side{right:0;bottom:20%;font-size:10px}.preloader__bottom>span:first-child{display:none}.preloader__track{max-width:none}.preloader__counter{font-size:74px}}
+
+/* If JS or GSAP fails after hydration, the overlay cannot trap the page. */
+@keyframes preloader-failsafe{0%,94%{opacity:1;visibility:visible}100%{opacity:0;visibility:hidden;pointer-events:none}}
